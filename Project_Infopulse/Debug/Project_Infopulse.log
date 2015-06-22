@@ -1,0 +1,25 @@
+﻿Build started 22.06.2015 20:14:24.
+     1>Project "C:\Users\Шатило\Documents\GitHub\HorseMove\Project_Infopulse\Project_Infopulse.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Project_Infopulse.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Project_Infopulse.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ChessBoard.cpp Project_Infopulse.cpp random.cpp SingleList.cpp
+         SingleList.cpp
+         random.cpp
+         Project_Infopulse.cpp
+         ChessBoard.cpp
+         Generating Code...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Шатило\Documents\GitHub\HorseMove\Debug\Project_Infopulse.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Шатило\Documents\GitHub\HorseMove\Debug\Project_Infopulse.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Шатило\Documents\GitHub\HorseMove\Debug\Project_Infopulse.lib" /MACHINE:X86 Debug\ChessBoard.obj
+         Debug\Project_Infopulse.obj
+         Debug\random.obj
+         Debug\SingleList.obj
+         Debug\stdafx.obj
+     1>ChessBoard.obj : error LNK2001: unresolved external symbol "private: static class ChessBoard * KnightStep::s_pChessBoard" (?s_pChessBoard@KnightStep@@0PAVChessBoard@@A)
+     1>Project_Infopulse.obj : error LNK2001: unresolved external symbol "private: static class ChessBoard * KnightStep::s_pChessBoard" (?s_pChessBoard@KnightStep@@0PAVChessBoard@@A)
+     1>C:\Users\Шатило\Documents\GitHub\HorseMove\Debug\Project_Infopulse.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\Users\Шатило\Documents\GitHub\HorseMove\Project_Infopulse\Project_Infopulse.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.51
